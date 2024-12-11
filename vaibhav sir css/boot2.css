@@ -1,0 +1,22 @@
+
+.text-gold{
+    color: rgba(108, 68, 2, 0.875);
+}
+.bg-radium{
+    background-color: rgba(84, 186, 0, 0.937);
+}
+
+.a{
+  color: blue;
+  
+}
+.b{
+    font-weight: 900;
+}
+a{
+    text-decoration:line-through;
+    color: aliceblue;
+}
+span{
+    background-color: yellow;
+}

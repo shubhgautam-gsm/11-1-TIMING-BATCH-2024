@@ -6,7 +6,7 @@ int per(int donkey,int horse) {
 }
 int main() {
   int khachar=per(80,20);
-  int horsedo=per(20,80);
+  int horsedo=per(120,80);
   
   cout << khachar<<"\n";
   cout << horsedo<<"\n";

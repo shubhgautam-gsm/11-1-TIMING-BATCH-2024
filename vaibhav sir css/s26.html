@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+  body{
+        color: blue;
+    }
+#rcorners1 {
+  border-radius: 0px 50px 100px 200px;
+  background: hsl(85, 68%, 40%);
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+#rcorners2 {
+    border-radius: 0px 100px ;
+    border: 2px solid red;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  #rcorners3{
+    /* top right bottom left top-bottom right-left */
+    border-radius: 0px 100px 30px  ;
+    
+    border-color: orange  rgb(241, 86, 8) red green;
+    border-width: 2px;
+    border-style: double dotted solid;
+    background:url(./imgs/m2.jpeg) ;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+
+</style>
+</head>
+<body>
+
+<h1>The border-radius Property</h1>
+
+<p>Rounded corners for an element with a specified background color:</p>
+<p id="rcorners1">Rounded corners!</p>
+<p>Rounded corners for an element with a border:</p>
+<p id="rcorners2">Rounded corners!</p>
+<p>Rounded corners for an element with a background image:</p>
+<p id="rcorners3">Rounded corners!</p>
+
+</body>
+</html>
+
+
